@@ -220,6 +220,8 @@ button{
     height: 100%;
     width: 100;
     padding: 35px 15px;
+    overflow-y: auto;
+    visibility: hidden;
 }
 .header .nav-inner{
     min-height: calc(100vh - 70px);
@@ -305,13 +307,13 @@ button{
     display: flex;
     flex-wrap: wrap;
 }
-.home-img .img-box{
+/* .home-img .img-box{
     max-width: 360px;
     background-color: var(--white-alpha-25);
     border-radius: 50%;
     border: 8px solid var(--white-alpha-25);
     margin: auto;
-}
+} */
 .home-img .img-box img{
     width: 100%;
     border-radius: 50%;
